@@ -49,7 +49,7 @@ export default [
         src: "./src/assets/language-svgrepo-com.svg",
         alt: "Learning a new language"
     },
-    streak : "7days",
+    streak : "88days",
     quote: "Language is the road map of a culture. Konnichiwa!.",
  }
 ]
