@@ -8,6 +8,7 @@ import DateDisplay from './date'
 
 
 
+
 function App() {
 
 const habitList = HabitList.map((habit) => {
@@ -22,7 +23,7 @@ const habitList = HabitList.map((habit) => {
       <Header />
       <DateDisplay />
       <main>
-      {habitList}
+      {habitList} 
     </main>
     </div>
   )

@@ -40,5 +40,16 @@ export default [
     },
     streak : "12days",
     quote: "presence is the key to happiness, and meditation is the key to presence.",
+ },
+
+ {
+    id: 5,
+    Name: "Learning a new language",
+    img:{
+        src: "./src/assets/language-svgrepo-com.svg",
+        alt: "Learning a new language"
+    },
+    streak : "7days",
+    quote: "Language is the road map of a culture. Konnichiwa!.",
  }
 ]
