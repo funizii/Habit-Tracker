@@ -8,7 +8,6 @@ font-family: "Fraunces", serif;
 background-image: url("./src/assets/original-c4197a5bf25a4356aa2bac6f82073eb2.webp");
 background-position: center;
 background-size: cover;
-
 }
 
 .fraunces-font {
@@ -22,7 +21,6 @@ background-size: cover;
 }
 
 header{
-    background-color: black;
     color: white;
     width: 100%;
     padding-top: 1px;
@@ -55,7 +53,7 @@ p{
 .Header-block{
     display: flex;
     flex-direction: column;
-      background-color: 	#1c1914	;
+      background-color:	#1c1914;
     width: 80px;
       text-align: center;
     padding-top: 8px;
@@ -98,9 +96,7 @@ img{
     flex-direction: row;
     align-items: center;
     gap: 5px;
-   
-      flex-wrap: nowrap;
-
+     flex-wrap: nowrap;
 }
 
 h2{
@@ -108,15 +104,13 @@ h2{
     font-size: var(--text-2x2);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
-    
-}
+    }
+
 .streakandicon{
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 5px;
-   
-
 }
 
 .first-habit{
@@ -130,13 +124,18 @@ h2{
   margin-right: 400px;
   margin-left: 400px;
   border-radius: 10px;
-  background-color: #1c1914;
+  background-color: rgb(68, 15, 68);
 }
 
 
 .date{
-    
     margin-top: 15px;
     font-size: medium;
     text-align: center;
+}
+
+.quote{
+max-width: 100%;
+justify-content: center;
+font-size: small;
 }

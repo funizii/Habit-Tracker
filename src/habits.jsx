@@ -48,7 +48,7 @@ const Habits = (props) => {
    <img className="streak-img" src=".\src\assets\fire-svgrepo-com.svg" alt="streak-img"/>
     </div>
     <div>
-   <p>{props.habit.quote}</p>
+   <p className='quote'>{props.habit.quote}</p>
    </div>
   
     

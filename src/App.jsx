@@ -13,7 +13,6 @@ function App() {
 
 const habitList = HabitList.map((habit) => {
   return (
-   // App.jsx
 <Habits key={habit.id} habit={habit} />
   )
 })
