@@ -1,7 +1,5 @@
  import { useState } from 'react';
-
-
-
+ import streakImg from './assets/fire-svgrepo-com.svg';
 const Habits = (props) => {
   
       const [active, setActive] = useState(false);
@@ -45,7 +43,7 @@ const Habits = (props) => {
       </div>
 <div className='streakandicon'> 
          <p className='streak'>Streak: {props.habit.streak}</p>
-   <img className="streak-img" src=".\src\assets\fire-svgrepo-com.svg" alt="streak-img"/>
+   <img className="streak-img" src={streakImg} alt="streak-img"/>
     </div>
     <div>
    <p className='quote'>{props.habit.quote}</p>

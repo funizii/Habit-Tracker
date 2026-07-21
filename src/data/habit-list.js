@@ -1,12 +1,13 @@
-import bookAndPersonWinterSvgrepoCom from "./src/assets/book-and-person-winter-svgrepo-com.svg";
+import bookAndPersonWinterSvgrepoCom from "../assets/book-and-person-winter-svgrepo-com.svg";
 import dumbellSvgrepoCom from "../assets/dumbbell-svgrepo-com.svg";
+
 
 export default [
     {
         id: 1,
         Name: "Exercise",
       img: {
-            src: bookAndPersonWinterSvgrepoCom,
+            src: {bookAndPersonWinterSvgrepoCom},
             alt: "Exercise"
         },
         streak : "38days",
