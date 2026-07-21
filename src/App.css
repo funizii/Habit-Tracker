@@ -5,7 +5,7 @@ box-sizing: border-box;
 background-color: black;
 color: white;
 font-family: "Fraunces", serif;
-background-image: url("./src/assets/original-c4197a5bf25a4356aa2bac6f82073eb2.webp");
+background-image: url("./public/original-c4197a5bf25a4356aa2bac6f82073eb2.webp");
 background-position: center;
 background-size: cover;
 }
