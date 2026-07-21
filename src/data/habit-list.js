@@ -1,5 +1,8 @@
 import bookAndPersonWinterSvgrepoCom from "../assets/book-and-person-winter-svgrepo-com.svg";
 import dumbellSvgrepoCom from "../assets/dumbbell-svgrepo-com.svg";
+import journalSvgrepoCom from "../assets/journal-svgrepo-com.svg";
+import meditationRoundSvgrepoCom from "../assets/meditation-round-svgrepo-com.svg";
+import languageSvgrepoCom from "../assets/language-svgrepo-com.svg";
 
 
 export default [
@@ -7,7 +10,7 @@ export default [
         id: 1,
         Name: "Exercise",
       img: {
-            src: {bookAndPersonWinterSvgrepoCom},
+            src: {dumbellSvgrepoCom},
             alt: "Exercise"
         },
         streak : "38days",
@@ -17,7 +20,7 @@ export default [
     id: 2,
     Name: "Reading",
     img: {
-        src: "./src/assets/book-and-person-winter-svgrepo-com.svg",
+        src: { bookAndPersonWinterSvgrepoCom},
         alt: "Reading"
     },
     streak : "15days",
@@ -28,7 +31,7 @@ export default [
     id: 3,
     Name: "Journaling",
    img: {
-        src: "./src/assets/journal-svgrepo-com.svg",
+        src: {journalSvgrepoCom},
         alt: "Journaling"
     },
     streak : "5days",
@@ -39,7 +42,7 @@ export default [
     id: 4,
     Name: "Meditation",
     img:{
-        src: "./src/assets/meditation-round-svgrepo-com.svg",
+        src: {meditationRoundSvgrepoCom},
         alt: "Meditation"
     },
     streak : "12days",
@@ -50,7 +53,7 @@ export default [
     id: 5,
     Name: "Learning a new language",
     img:{
-        src: "./src/assets/language-svgrepo-com.svg",
+        src: {languageSvgrepoCom},
         alt: "Learning a new language"
     },
     streak : "88days",
