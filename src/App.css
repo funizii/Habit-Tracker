@@ -5,7 +5,7 @@ box-sizing: border-box;
 background-color: black;
 color: white;
 font-family: "Fraunces", serif;
-background-image: url("./background.webp");
+background-image: url("/Habit-Tracker/background.webp");
 background-position: center;
 background-size: cover;
 }
