@@ -10,7 +10,7 @@ export default [
         id: 1,
         Name: "Exercise",
       img: {
-            src: {dumbellSvgrepoCom},
+            src: dumbellSvgrepoCom,
             alt: "Exercise"
         },
         streak : "38days",
@@ -20,7 +20,7 @@ export default [
     id: 2,
     Name: "Reading",
     img: {
-        src: { bookAndPersonWinterSvgrepoCom},
+        src:  bookAndPersonWinterSvgrepoCom,
         alt: "Reading"
     },
     streak : "15days",
@@ -31,7 +31,7 @@ export default [
     id: 3,
     Name: "Journaling",
    img: {
-        src: {journalSvgrepoCom},
+        src: journalSvgrepoCom,
         alt: "Journaling"
     },
     streak : "5days",
@@ -42,7 +42,7 @@ export default [
     id: 4,
     Name: "Meditation",
     img:{
-        src: {meditationRoundSvgrepoCom},
+        src: meditationRoundSvgrepoCom,
         alt: "Meditation"
     },
     streak : "12days",
@@ -53,7 +53,7 @@ export default [
     id: 5,
     Name: "Learning a new language",
     img:{
-        src: {languageSvgrepoCom},
+        src: languageSvgrepoCom,
         alt: "Learning a new language"
     },
     streak : "88days",
